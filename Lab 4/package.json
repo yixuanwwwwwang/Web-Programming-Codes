@@ -1,0 +1,15 @@
+{
+  "name": "cs-546-lab4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yixuan Wang",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.6.3"
+  }
+}
