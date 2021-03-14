@@ -6,15 +6,20 @@ In addition, you must have error checking for the arguments of all your function
 
 ---
 
+---
 Initializing a Node.js Package
+
 For all of the labs going forward, you will be creating Node.js packages, which have a package.json. To create a package, simply create a new folder and within that folder, run the command npm init. When it asks for a package name, name it cs-546-lab-2. You may leave the version as default and add a description if you wish. The entry file will be index.js.
 
 All of the remaining fields are optional except author. For the author field, you must specify your first and last name, along with your CWID. In addition, You must also have a start script for your package, which will be invoked with npm start. You can set a start script within the scripts field of your package.json.
+---
 
-
+---
 arrayUtils.js
-This file will export 6 functions, each of which will pertain to arrays.
 
+This file will export 6 functions, each of which will pertain to arrays.
+---
+---
 mean(array)
 Returns the mean (Links to an external site.) value of the elements of an array
 
