@@ -1,0 +1,91 @@
+html,
+body {
+	font-size: 14pt;
+    background-color: rgb(255, 255, 255);
+}
+
+body {
+    color:rgb(0, 0, 0);
+	/* background: #ffffff; */
+	font-family:  "Courier New", serif;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(30, 48, 148, 0.849);
+    border-top-width: 1cm;
+    border-bottom-width: 0ch;
+    border-left-width: 0ch;
+    border-right-width: 0ch;
+    border-style: inset;
+
+}
+
+h1 {
+    text-align:center;
+    color:rgb(5, 3, 37);
+	font-size: 5rem;
+    background-color:rgba(112, 128, 144, 0.253);
+}
+
+p {
+    text-align: center;
+    font-size:  1.5rem;
+    color:rgb(0, 0, 0);
+    font-style: italic;
+    font-weight: bold;
+    font-family: fantasy;
+}
+input{
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    background-color: rgba(183, 204, 221, 0.274);
+    
+}
+
+
+label{
+    font-size: 30px;
+    color: rgba(6, 17, 54, 0.876);
+    font-weight: bold;
+
+}
+
+button{
+    background-color:rgb(62, 87, 158);
+    color:rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+
+h2 {
+    text-indent: 3cm;
+	font-size: 2rem;
+    color:rgb(22, 44, 93);
+    text-align: center;
+    font-family:monospace;
+    font-weight:lighter;
+}
+
+a {
+    color:rgba(5, 14, 44, 0.876);
+}
+
+ul {
+    color:rgb(2, 22, 31);
+}
+
+dt{
+    color:rgb(221, 229, 233);
+    font-size: 30px;
+    background-color: rgb(2, 9, 22);
+    font-weight:bold;  
+}
+
+dl{
+    color: rgb(1, 6, 19);
+    font-size: 28px;
+    text-align:justify;
+}
+
+
+
+

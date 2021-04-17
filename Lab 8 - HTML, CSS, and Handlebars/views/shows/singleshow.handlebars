@@ -1,0 +1,28 @@
+<title>{{singleShow.name}}</title>
+<main>
+    
+    <div>
+        <h1>{{singleShow.name}}</h1>
+        <img src= {{singleShow.image.medium}}>
+        <dl>
+            <dt>Language</dt>
+            <dd>{{singleShow.language}}</dd>
+            <dt>Genres</dt>
+            <dd>
+                <ul>
+                    {{#each singleShow.genres}}
+                    <li>{{this}}</li>
+                    {{/each}}
+                </ul>
+            </dd>
+            <dt>Average Rating</dt>
+            <dd>{{singleShow.rating.average}}</dd>
+            <dt>Network</dt>
+            <dd>{{singleShow.network.name}}</dd>
+            <dt>Summary</dt>
+            <dd>{{singleShow.summary}}</dd>
+
+        </dl>
+    </div>
+
+</main>
